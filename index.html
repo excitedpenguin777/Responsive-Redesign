@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Berkshire Hathaway Website Responsive
+      Redesign</title>
+    <link rel="stylesheet" href="styles.css">
+    <!-- Used Bootstrap for CSS styling https://getbootstrap.com/docs/5.2/getting-started/introduction/ -->
+    <link rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous">
+    <meta name="description" content="Berkshire Hathaway Website Responsive
+    Redesign">
+  </head>
+
+  <body>
+    <div class="p-4 bg-light">
+      <h1 class="text-center text-justify">Berkshire Hathaway Website Responsive
+        Redesign</h1>
+      <h2 class="mt-5 mb-4"> Background </h2>
+      <p> For this project, I found a poorly designed website and analyzed its
+        issues with respect to memorability, learnability, usability, and
+        accessibility. Next, I wireframed and prototyped a redesigned website for
+        desktop, tablet, and mobile layouts. Finally, I built and deployed the
+        redesigned website using HTML and CSS. </p>
+      <h2 class="mt-5 mb-4">Website Usability Problems</h2>
+      <p> I chose to look at the Berkshire Hathaway Website, linked <u> 
+        <a target="_blank" href="https://www.berkshirehathaway.com/">here</a> </u>. I chose this website because there are glaring issues with the
+        accessibility and organization of the homepage. Below is a
+        screenshot of the homepage.
+        <img class="img-fluid max-width: 70% mx-auto d-block mt-3 mb-3"
+          src="./assets/original-page.png" alt="Berkshire Hathaway Original
+          Website">
+        <h4 class="mt-3 mb-3"> Usability Problems</h4>
+        <p> Here are some usability problems with the website I noticed: </p>
+        <li> This website has poor memorability because similar information is
+          not organized together. For example, content that would fall under the
+          “About Us” category (legal, sustainability, corporate governance) is
+          scattered. </li>
+        <li> The way that information is stored and lack of information on the
+          homepage leads to poor usability. For example, you have to click twice
+          to see a news report (News Releases -> Link -> PDF). This is
+          information that should be accessible on the home page so that users
+          can learn about the company when they first visit the webpage. </li>
+        <li> There is not enough difference in font size between headers and
+          other text, which makes it hard to establish hierarchy. Furthermore,
+          some of the text on the webpage is too small, which negatively affects
+          accessibility. </li>
+        <li> The navigation links to different types of information are included
+          in an ordered list of hyperlinks, which negatively affects
+          learnability because users have to click on a link to understand that
+          it is a top-level link that includes more content.</li>
+        <li> There is no search bar or function, which makes it hard to find
+          specific information if you are first using the site and not sure
+          where it lives. This leads to poor usability and learnability. </li>
+        <h4 class="mt-3 mb-3"> Accessibility Problems</h4>
+        <p> Next, I used WebAIM WAVE to detect possible accessibility problems.
+          The main accessibility problem that WAVE found was that the text that
+          indicates when a section was updated is too small. I agree that this
+          is an issue, as I personally had trouble reading. A related problem
+          that WAVE identified was that the headings are stored as an unordered
+          list and are not represented as heading elements; this makes the
+          website very hard to navigate and negatively affects the
+          accessibility. Finally, WAVE pointed out that there is no lang
+          attribute value and that none of the page regions have ARIA landmarks;
+          these both negatively affect the user experience of anyone trying to
+          navigate the page with assistive technology. </p>
+        <h2 class="mt-5 mb-4">Visual Redesign</h2>
+        <h4 class="mt-3 mb-3"> Low-Fidelity Wireframing</h4>
+        <p> During the redesign process, I first created lo-fi wireframes to
+          address the usability problems I found above. I created wireframes for
+          desktop, tablet, and mobile layouts.</p>
+
+        <h4 class="mt-3 mb-3 text-center text-weight-bold"> Desktop</h4>
+
+        <img class="img-fluid max-width: 70% mx-auto d-block mt-3 mb-3"
+          src="./assets/lo-desktop.png" alt="Berkshire Hathaway Redesign Desktop Wireframe">
+
+        <h4 class="mt-3 mb-3 text-center text-weight-bold"> Tablet</h4>
+
+        <img class="img-fluid max-width: 70% mx-auto d-block mt-3 mb-3"
+          src="./assets/lo-tablet.png" alt="Berkshire Hathaway Redesign Tablet Wireframe">
+
+        <h4 class="mt-3 mb-3 text-center text-weight-bold"> Mobile</h4>
+
+        <img class="img-fluid max-width: 70% mx-auto d-block mt-3 mb-3"
+          src="./assets/lo-mobile.png" alt="Berkshire Hathaway Redesign Mobile Wireframe">
+
+        <h4 class="mt-3 mb-3"> Visual Design Style Guide</h4>
+        <p> Next, I defined
+          a visual design guide that displays the main colors, typography, and
+          reusable components for the redesigned webpage.</p>
+
+        <img class="img-fluid max-width: 70% mx-auto d-block mt-3 mb-3"
+          src="./assets/guide.png" alt="Berkshire Hathaway Redesign Style Guide">
+        <h4 class="mt-3 mb-3"> High-Fidelity Prototyping</h4>
+
+        I then designed high-fidelity prototypes for my redesigned webpage for
+        desktop, tablet, and mobile displays. Some displays included multiple
+        prototypes in order to fully display the interactive functions of my
+        webpage, such as the navigation bar.
+
+        <h4 class="mt-3 mb-3 text-center text-weight-bold"> Desktop</h4>
+
+        <img class="img-fluid max-width: 70% mx-auto d-block mt-3 mb-3"
+          src="./assets/hi-desktop1.png" alt="Berkshire Hathaway Redesign Desktop Prototype 1">
+
+        <img class="img-fluid max-width: 70% mx-auto d-block mt-3 mb-3"
+          src="./assets/hi-desktop2.png" alt="Berkshire Hathaway Redesign Desktop Prototype 2">
+
+        <img class="img-fluid max-width: 20% mx-auto d-block mt-3 mb-3"
+          src="./assets/hi-desktop3.png" alt="Berkshire Hathaway Redesign Desktop Prototype 3">
+
+        <h4 class="mt-3 mb-3 text-center text-weight-bold"> Tablet</h4>
+
+        <img class="img-fluid max-width: 70% mx-auto d-block mt-3 mb-3"
+          src="./assets/hi-tablet1.png" alt="Berkshire Hathaway Redesign Tablet Prototype 1">
+
+        <img class="img-fluid max-width: 70% mx-auto d-block mt-3 mb-3"
+          src="./assets/hi-tablet2.png" alt="Berkshire Hathaway Redesign Tablet Prototype 2">
+
+        <h4 class="mt-3 mb-3 text-center text-weight-bolder"> Mobile</h4>
+
+        <img class="img-fluid max-width: 70% mx-auto d-block mt-3 mb-3"
+          src="./assets/hi-mobile.png" alt="Berkshire Hathaway Redesign Mobile Prototype">
+
+        <h2 class="mt-5 mb-4">Responsive Redesign</h2>
+        Finally, I used my wireframes, style guide, and prototypes to design a responive webpage that addresses the original usability and accessibility issues I found with the Berkshire Hathaway website. The website can be found <u> <a target="_blank" href="https://excitedpenguin777.github.io/Berkshire-Hathaway-Responsive-Redesign/"> here</a> </u> </a>. Below are screenshots of the website for desktop, tablet, and mobile displays.
+        
+        <h4 class="mt-3 mb-3 text-center text-weight-bold"> Desktop</h4>
+
+        <img class="img-fluid max-width: 70% mx-auto d-block mt-3 mb-3"
+          src="./assets/desktop-redesign.png" alt="Berkshire Hathaway Desktop Redesign">
+
+        <h4 class="mt-3 mb-3 text-center text-weight-bold"> Tablet</h4>
+
+        <img class="img-fluid max-width: 70% mx-auto d-block mt-3 mb-3"
+          src="./assets/tablet-redesign.png" alt="Berkshire Hathaway Tablet Redesign">
+
+        <h4 class="mt-3 mb-3 text-center text-weight-bolder"> Mobile</h4>
+
+        <img class="img-fluid max-width: 70% mx-auto d-block mt-3 mb-3"
+          src="./assets/mobile-redesign.png" alt="Berkshire Hathaway Mobile Redesign">
+
+      </div>
+    </body>
+
+  </html>
